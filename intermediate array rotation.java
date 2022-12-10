@@ -35,7 +35,7 @@ class HelloWorld {
         }
          else
         {
-            System.out.println("your are eligible for voting");
+            throw new ArithmeticException("worng step vlaue.step should be less than or equalto value of "+n+" ");
         }
     }
 }
