@@ -17,6 +17,8 @@ class HelloWorld {
         //k is step value which means number of step to rotate;
         k=in.nextInt();
         // for loop for rotate the elements ;
+        if(k<=n)
+        {
         for(i=0;i<k;i++)
         {
             result[i]=nums[nums.length-k+i];
@@ -29,6 +31,11 @@ class HelloWorld {
         for(i=0;i<nums.length;i++)
         {
             System.out.println(result[i]);
+        }
+        }
+         else
+        {
+            System.out.println("your are eligible for voting");
         }
     }
 }
